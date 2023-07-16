@@ -186,7 +186,7 @@ footer{
     }
   }
   @media (max-width: 300px){
-    h2 {
+    h3 {
         font-size: 0px;
     }
   }
