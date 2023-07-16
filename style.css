@@ -143,6 +143,17 @@ footer{
     font-weight: bold;
 }
 
+@media (max-width: 934px) and (min-width:656px) {
+    .logo{
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        top: -3%;
+        left:-3%;
+
+    }
+}
+
 @media (max-width: 655px) and (min-width: 301px) {
     .logo {
         height: 50px;
@@ -173,20 +184,54 @@ footer{
         font-size: 0px;
         width: 100px;
     }
-  }
-
-  @media (max-width: 934px) and (min-width:656px) {
-    .logo{
-        position: absolute;
-        height: 100px;
-        width: 100px;
-        top: -3%;
-        left:-3%;
-
+    footer {
+        font-size: 6px;
     }
   }
+
   @media (max-width: 300px){
     h3 {
         font-size: 0px;
+    }
+
+    .logo {
+        height: 50px;
+        width: 50px;
+        position: relative;
+        top: 5%;
+        left: 0%;
+        border-radius: 50%;
+    }
+
+    h1 {
+        font-family: 'Arvo', serif;
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+    
+    h2 {
+        font-family: 'Arvo', serif;
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 0px;
+        width: 100px;
+    }
+
+    .icon {
+        height: 20px;
+        width: 20px;
+        position: relative;
+        top: 5%;
+        bottom: 5%;
+    }
+
+    textarea {
+        font-size: 13px;
+    }
+
+    footer {
+        font-size: 6px;
     }
   }
