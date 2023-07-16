@@ -1,0 +1,187 @@
+body {
+    background-color: green;
+    padding: 30px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 5%;
+    left: 5%;
+    background-color: greenyellow;
+    padding-top: 5px;
+    height: 90%;
+    width: 90%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.logo {
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    border-radius: 50%;
+}
+
+h1 {
+    font-family: 'Arvo', serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+h3 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: 'Arvo', serif;
+    font-size: 24px;
+}
+
+.material-symbols-outlined {
+    height: 24px;
+    width: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text_area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(84, 90, 76);
+    border-radius: 20px;
+    height: 50%;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.box_text {
+    height: 100%;
+    width: 50%;
+    margin: 10px;
+}
+
+textarea {
+    width: 95%;
+    height: 98%;
+    border-radius: 20px;
+    resize: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 21px;
+}
+
+#pegon {
+    text-align: right;
+    font-family: 'Amiri', serif;
+}
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    
+}
+
+button {
+    border: 3px solid rgb(84, 90, 76);
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: rgb(187, 186, 186);
+}
+
+.icon {
+    height: 57%;
+    width: 20%;
+    position: relative;
+    top: 5%;
+    bottom: 5%;
+}
+
+.italic_text {
+    font-style: italic;
+}
+
+#icon_lafadz {
+    font-size: 23px;
+    font-family: 'Amiri', serif;
+    font-weight: bold;
+}
+
+footer{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    color: aliceblue;
+    font-size: 10px;
+}
+
+#email {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+@media (max-width: 655px) {
+    .logo {
+        height: 50px;
+        width: 50px;
+        position: relative;
+        top: 5%;
+        left: 0%;
+        border-radius: 50%;
+    }
+
+    h1 {
+        font-family: 'Arvo', serif;
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+    
+    h3 {
+        font-family: 'Ubuntu Mono', monospace;
+        font-size: 15px;
+    }
+    
+    h2 {
+        font-family: 'Arvo', serif;
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 0px;
+        width: 100px;
+    }
+  }
+
+  @media (max-width: 934px) and (min-width:656px) {
+    .logo{
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        top: -3%;
+        left:-3%;
+
+    }
+  }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Arvo:wght@700&family=Caveat&family=Libre+Baskerville&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <link rel="icon" href="./src/p.ico" type="image/png">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>
+        Tukang Pego
+    </title>
+</head>
+<body>
+    <div class="container">
+        <div class="heading_text">
+            <img class="logo" src="./src/p.ico" alt="icon_tukang_pego">
+            <h1>Tukang Pego</h1>
+            <h3>meng-<span class="italic_text">Convert</span> text latin menjadi text arab pegon</h3>
+            <h2>A <span class="material-symbols-outlined"><img src="./src/icons8-convert-30.png" alt=""></span><span id="icon_lafadz"> أ</span></h2>
+        </div>
+        <div class="text_area">
+            <textarea name="text_latin" id="latin" ></textarea>
+            <textarea name="text_pegon" id="pegon" ></textarea>  
+        </div>
+        <div class="button">
+            <button id="paste"><img class="icon" src="./src/icons8-paste-24.png" alt=""> Paste</button>
+            <button onclick="replaceText()"><img class="icon" src="./src/icons8-convert-30.png" alt=""> Convert</button>
+            <button id="copy"><img class="icon" src="./src/icons8-copy-24.png" alt=""> Copy</button>
+            <button onclick="clearTextarea()"><img class="icon" src="./src/icons8-delete-24.png" alt=""> Clear</button>
+        </div>
+    </div>
+
+    <footer>Kritik/saran/komentar e-mail: <a id="email" href="mailto:syihabachmad0@gmail.com">syihabachmad0@gmail.com.</a> Subjek: Tukang Pego</footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
