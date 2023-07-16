@@ -143,7 +143,7 @@ footer{
     font-weight: bold;
 }
 
-@media (max-width: 655px) {
+@media (max-width: 655px) and (min-width: 301px) {
     .logo {
         height: 50px;
         width: 50px;
@@ -183,5 +183,10 @@ footer{
         top: -3%;
         left:-3%;
 
+    }
+  }
+  @media (max-width: 300px){
+    h2 {
+        font-size: 0px;
     }
   }
